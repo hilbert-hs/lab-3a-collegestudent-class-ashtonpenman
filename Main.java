@@ -28,6 +28,7 @@ class Main {
     String newCourseNumber = scan.nextLine();
     System.out.println("How many credits is this course?");
     int newCredits = scan.nextInt();
+    scan.nextLine();
     return new CollegeStudent(newName, newCourseTitle, newCourseNumber, newCredits);
   }
     
